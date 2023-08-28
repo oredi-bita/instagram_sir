@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<!--navigation-->
+    <div id="navigatoin_bar" >
+        <!--logo-->
+        <nav>
+            <h3 id="navigation_bar">Instegram</h3>
+            <div>
+            <ul >
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                  </svg> Home</li>
+               
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>search</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 16 16">
+                    <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+                    <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
+                    <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                  </svg>reel</li>
+                  <li > <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                    <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                    <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                  </svg>message</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                    <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                  </svg>natifications</li>
+                
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                  </svg>create</li>
+
+               
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>profile</li>
+                
+            </ul>
+        </nav>
+        <ul>
+            <li id="more"> <svg xmlns="http://www.w3.org/2000/svg"
+                 width="16" height="16" fill="currentColor" 
+                class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>more</li>
+            </li>
+        </ul>    
+    </div>
+</div>
+<!--main page-->
+<div id="main_page">
+    <!--post div-->
+    <div class="posts">
+        <!--post-->
+        <divb class="post">
+            <div  class="post_head">
+            <div class="left">
+                <img src="https://th.bing.com/th/id/R.25f1eaf0a63f3a96c91784f08fb499df?rik=Aj4sgYCoDg6xVg&pid=ImgRaw&r=0"
+                 class="profile">
+                 <p>Fecebook</p>
+                 </div>
+            
+                <button class="icon_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="post_img">
+                <img src="https://th.bing.com/th/id/OIP.3LBGFv8E5q0rqccCjz5AUwHaEK?w=282&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+            </div>
+            <div class="post_reaction">
+                <div class="left">
+                    <button><i class="bi bi-heart"></i></button>
+                    <button><i class="bi bi-chat"></i></button>
+                    <button><i class="bi bi-share"></i></button>
+                </div>
+                <button><i  class="bi bi-bookmark"></i></button>
+            </div>
+            <div class="post_comments">
+                <p id="likes">2,732likes</p>
+                <p class="all comments">4,143,322 comments</p>
+                <div id="add new comments">Add new comements</div>
+            </div>    
+        </div>
+        <divb class="post">
+           
+        </div>
+        <divb class="post">
+            <div  class="post_head">
+            <div class="left">
+                <img src="https://th.bing.com/th/id/R.311b9bf25d8dfe719daa5f158a02b85f?rik=IbDC2gZ%2fxuLacA&pid=ImgRaw&r=0"
+                 class="profile_profile">
+                 <p>Tiktok</p>
+            </div>
+                <button class="icon_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="post_img">
+                <img src="https://th.bing.com/th/id/OIP.3LBGFv8E5q0rqccCjz5AUwHaEK?w=282&h=180&c=7&r=0&o=5&pid=1.7"
+                 alt="profile">
+            </div>
+            <div class="post_reaction">
+                <div class="left">
+                    <button><i class="bi bi-heart"></i></button>
+                    <button><i class="bi bi-chat"></i></button>
+                    <button><i class="bi bi-share"></i></button>
+                </div>
+                <button><i  class="bi bi-bookmark"></i></button>
+            </div>
+            <div class="post_comments">
+                <p id="likes">2,732likes</p>
+                <p class="all comments">4,143,322 comments</p>
+                <div id="add new comments">Add new comements</div>
+            </div>    
+        </div>
+        <divb class="post">
+            <div  class="post_head">
+            <div class="left">
+                <img src="https://th.bing.com/th/id/R.1809442ad4311c921cab685328009e6b?rik=AlikthCR5Mawqg&pid=ImgRaw&r=0" 
+                class="post_profile">
+                 <p>opera</p>
+            </div>
+                <button class="icon_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="post_img">
+                <img src="https://th.bing.com/th/id/OIP.UCxthHissS16WQb5jc2RGQHaE8?w=201&h=180&c=7&r=0&o=5&pid=1.7" alt="profile">
+            </div>
+            <div class="post_reaction">
+                <div class="left">
+                    <button><i class="bi bi-heart"></i></button>
+                    <button><i class="bi bi-chat"></i></button>
+                    <button><i class="bi bi-share"></i></button>
+                </div>
+                <button><i  class="bi bi-bookmark"></i></button>
+            </div>
+            <div class="post_comments">
+                <p id="likes">2,732likes</p>
+                <p class="all comments">4,143,322 comments</p>
+                <div id="add new comments">Add new comements</div>
+            </div>    
+        </div>
+        <divb class="post">
+            <div  class="post_head">
+            <div class="left">
+                <img src="https://th.bing.com/th/id/OIP.8fryhWSMKM0M9e50yJeMowHaHa?pid=ImgDet&rs=1"
+                 class="post_profile">
+                 <p>sportify</p>
+            </div>
+                <button class="icon_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="post_img">
+               <img src="https://th.bing.com/th?id=OIP.z4fpfZzL8E6ASoBvPBy3CwHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+            </div>
+            <div class="post_reaction">
+                <div class="left">
+                    <button><i class="bi bi-heart"></i></button>
+                    <button><i class="bi bi-chat"></i></button>
+                    <button><i class="bi bi-share"></i></button>
+                </div>
+                <button><i  class="bi bi-bookmark"></i></button>
+            </div>
+            <div class="post_comments">
+                <p id="likes">2,732likes</p>
+                <p class="all comments">4,143,322 comments</p>
+                <div id="add new comments">Add new comements</div>
+            </div>    
+        </div>
+        <!--End of post-->
+        </div>
+        <!--suggestion div-->
+        <div class="suggestion">
+            <div class="user_div">
+              <img src="https://th.bing.com/th/id/OIP.F9oUFHsB2iF6dAmVcoowjQAAAA?pid=ImgDet&w=203&h=203&c=7"
+               alt="profile pic"
+               id="profile img"
+               >
+                    <p style="font-weight: 700;font-size: large;">mary_jonson</p>
+                    <p>mary johnson</p>
+                </div>
+                <button id="sb_btn">switch</button>
+        </div>
+        <div class="sg">
+            <p>suggestion for you</p>
+            <button>see all</button>#
+        </div>
+        <div class="user_div">
+           <img src="https://th.bing.com/th/id/OIP.TkQ0N9f9V5Hv_pjb5GqN6AHaE8?w=205&h=137&c=7&r=0&o=5&pid=1.7"
+            alt="profile pic"
+            id="profile img"
+            >
+           
+             <div>
+                 <p style="font-weight: 700;font-size: large;">chuma_alisa</p>
+                 <p>mary johnson</p>
+             </div>
+             <button id="sb_btn">switch</button>
+     </div>
+     <div class="user_div">
+       <img src="https://th.bing.com/th/id/OIP.fLwis4rU9CX99n8puQJOXAHaHv?pid=ImgDet&w=203&h=212&c=7" 
+       alt="profile pic"
+       id="profile img"
+       >
+        <div>
+            <p>ali john</p>
+         <button id="sb_btn">switch</button>
+        </div>
+        <div class="user_div">
+            <img src=" https://th.bing.com/th/id/OIP.FSGIWBQjKNTBMZDzGxt7IgHaLS?w=202&h=308&c=7&r=0&o=5&pid=1.7" alt="">
+        <div>
+         <p style="font-weight: 700;font-size: large;">juma_mali</p>
+         <p>mary kajulo</p>
+        </div>
+     <button id="sb_btn">switch</button>
+    </div>
+
+    
+    
+    </div>
+</body>
+</html>git status
